@@ -1,0 +1,983 @@
+[
+    {
+        "name": "Special Problems",
+        "coursenum": "1000",
+        "internal_id": 1,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "name": "Special Topics",
+        "coursenum": "1001",
+        "internal_id": 2,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "LAB",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "name": "Introduction To Computer Science",
+        "coursenum": "1010",
+        "internal_id": 3,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "LEC",
+        "description": "This course is devoted to an introduction of various areas of Computer Science, the faculty members, and lab equipment. Computer ethics will be discussed in several lectures."
+    },
+    {
+        "name": "Discrete Mathematics for Computer Science",
+        "coursenum": "1200",
+        "internal_id": 4,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A rigorous treatment of topics from discrete mathematics which are essential to computer science. Principal topics include: formal logic (propositional &amp; predicate), proof techniques, mathematical induction, program correctness, sets, combinatorics, probability, relations, functions, matrices, graph theory and graph algorithms. Prerequisite: A grade of &quot;C&quot; or better in both Comp Sci 1570 and one of Math 1120, Math 1140, Math 1208, and Math 1214."
+    },
+    {
+        "name": "Computational Problem Solving",
+        "coursenum": "1500",
+        "internal_id": 5,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course provides a rigorous introduction to computational problem solving, thinking, and debugging, for those with little-to-no experience in computer science. Language-agnostic foundations focus on pseudo-code, flowcharts, and software-based code tracing, then build to programming in a high-level interpreted language, with a focus on data and modeling."
+    },
+    {
+        "name": "Introduction To Programming",
+        "coursenum": "1570",
+        "internal_id": 6,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Programming design and development using C++. Emphasis placed on problem solving methods using good programming practices and algorithm design and development. Topics included are syntax/semantics, logical, relational and arithmetic operators, decision branching, loops, functions, file I/O, arrays, output formatting, C-strings, and an introduction to Object-Oriented Programming including the development and use of classes. Prerequisite: Accompanied by Comp Sci 1580."
+    },
+    {
+        "name": "Data Structures",
+        "coursenum": "1575",
+        "internal_id": 7,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A continuation of Object-Oriented Programming, with emphasis on the efficient organization of data through Abstract Data Types and Data Structures. Topics include Linked Lists, Vectors, Stacks, Queues, Trees, Hash Tables, Graphs and their use in a variety of algorithms. Recursive programming techniques are also covered. This course is programming intensive. Prerequisite: Grade of &quot;C&quot; or better in Comp Sci 1570."
+    },
+    {
+        "name": "Introduction To Programming Laboratory",
+        "coursenum": "1580",
+        "internal_id": 8,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "LAB",
+        "description": "Practical applications of concepts learned in Computer Science 1570. Hands-on instruction in C++ developing, debugging, and testing programming projects. Prerequisite: Accompanied by Comp Sci 1570."
+    },
+    {
+        "name": "Data Structures Laboratory",
+        "coursenum": "1585",
+        "internal_id": 9,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "LAB",
+        "description": "Hands-on instruction in programming development tools such as version control systems, integrated development environments, debuggers, profilers, and event-based programming environments. Exercises will complement the concepts presented in Comp Sci 1575. Prerequisite: Preceded or accompanied by Comp Sci 1575."
+    },
+    {
+        "name": "Basic Scientific Programming",
+        "coursenum": "1970",
+        "internal_id": 10,
+        "department": "COMP_SCI",
+        "hrs": "2.0",
+        "type": "LEC",
+        "description": "Introduction to the structure of programs and programming techniques in Fortran to solve science and engineering problems. Topics include data representation, basic solutions of numerical problems and the debugging and verification of programs. Prerequisite: Entrance requirements."
+    },
+    {
+        "name": "Introduction To Programming Methodology",
+        "coursenum": "1971",
+        "internal_id": 11,
+        "department": "COMP_SCI",
+        "hrs": "2.0",
+        "type": "LEC",
+        "description": "Basic structured programming and problem solving techniques using C++. Development, debugging, and testing of programs, data representation. Topics to include syntax/semantics, operators, loops, decision branching, arrays, file I/O. This course is a terminal course for non-majors and is not sufficient for entry into Computer Science 1510."
+    },
+    {
+        "name": "Introduction to MATLAB Programming",
+        "coursenum": "1972",
+        "internal_id": 12,
+        "department": "COMP_SCI",
+        "hrs": "2.0",
+        "type": "LEC",
+        "description": "Programming design and development using MATLAB for non-CS majors. Strong emphasis placed on algorithmic problem solving methods using good programming practices. Introduction to built-in functions including plotting, as well as logical/relational/arithmetic operators, decision branching, loops, functions, file I/O, datastructures, and output formatting. Prerequisite: Accompanied by Comp Sci 1982 and a &quot;C&quot; or better grade in either Math 1208 or Math 1214."
+    },
+    {
+        "name": "Computer Programming Laboratory",
+        "coursenum": "1980",
+        "internal_id": 13,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "LAB",
+        "description": "A laboratory to accompany Comp Sci 1970 which emphasizes the designing, writing and debugging of programs in Fortran. Prerequisite: Accompanied by Comp Sci 1970."
+    },
+    {
+        "name": "Programming Methodology Laboratory",
+        "coursenum": "1981",
+        "internal_id": 14,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "LAB",
+        "description": "A hands-on introduction to structured programming in C++. Development, coding, debugging, and execution of programming concepts discussed in Computer Science 1971. Prerequisite: Accompanied by Computer Science 1971."
+    },
+    {
+        "name": "MATLAB Programming Laboratory",
+        "coursenum": "1982",
+        "internal_id": 15,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "LAB",
+        "description": "Practical application of concepts learned in Comp Sci 1972. Hands-on instruction in MATLAB developing, debugging and testing programming projects. Prerequisite: Accompanied by Comp Sci 1972."
+    },
+    {
+        "name": "Special Problems",
+        "coursenum": "2000",
+        "internal_id": 16,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "name": "Special Topics",
+        "coursenum": "2001",
+        "internal_id": 17,
+        "department": "COMP_SCI",
+        "hrs": "0.0 and LEC 0.0",
+        "type": "LAB",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "name": "Cooperative Work Training",
+        "coursenum": "2002",
+        "internal_id": 18,
+        "department": "COMP_SCI",
+        "hrs": "1.0-5.0",
+        "type": "IND",
+        "description": "On-the-job experience gained through cooperative education with industry, with credit arranged through departmental cooperative advisor. Grade received depends on quality of reports submitted and work supervisors evaluation. Not more than 9 hours may be applied to the B.S. degree."
+    },
+    {
+        "name": "Theory of Computer Science",
+        "coursenum": "2200",
+        "internal_id": 19,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course will cover the theoretical underpinnings of computer science. In particular, this course will cover the following topics: basic computability and formal language concepts, regular languages, context free languages, recursively-enumerable languages, and classes P, NP, and NP-completeness. Prerequisite: A grade of &quot;C&quot; or better in both Comp Sci 1200 and Comp Sci 1575."
+    },
+    {
+        "name": "File Structures and Introduction to Database Systems",
+        "coursenum": "2300",
+        "internal_id": 20,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Course covers major topics in file structures and database systems including techniques for disk access and organization, record and file structures, index structures, sequential file, dense/sparse and secondary indexes, B-trees, range queries, insertion/deletion, hash tables, fundamentals of database systems, the ER model, relational model, algebra and SQL. Prerequisite: A grade of &quot;C&quot; or better in Comp Sci 1575."
+    },
+    {
+        "name": "Algorithms",
+        "coursenum": "2500",
+        "internal_id": 21,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Students will solve recurrence relations, analyze algorithms for correctness and time/space complexity, apply these analysis techniques to fundamental dynamic programming, greedy, shortest-path, minimal spanning trees, and maximum flow algorithms and validate these analyses through programming. Prerequisite: A grade of &quot;C&quot; or better in both Comp Sci 1200 and Comp Sci 1575; preceded by a grade of &quot;C&quot; or better in either Math 1208 or Math 1214, or accompanied by either Math 1208 or Math 1214."
+    },
+    {
+        "name": "Java and Object Oriented Design",
+        "coursenum": "2501",
+        "internal_id": 22,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course will cover Basic Java, Applets, Application, Classes, interfaces, Strings, Arrays, Generics, inheritance, Polymorphism, Algorithm and Object Oriented Design, Software Testing, Exception Handling, File I/O. The use of Graphical User Interfaces in program design and introduction to Software Life Cycle. Project included. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 1570."
+    },
+    {
+        "name": "Introduction To Computer Organization And Assembly",
+        "coursenum": "2889",
+        "internal_id": 23,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A detailed study designed to teach the building blocks of a computer system, assembly language programming and the basic computer organization concepts. Subjects include digital logic, performance issues, machine &amp; assembly language, binary arithmetic, and the structure of an ALU. Prerequisites: Comp Sci 1510 and Comp Sci 1200."
+    },
+    {
+        "name": "Special Problems",
+        "coursenum": "3000",
+        "internal_id": 24,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "name": "Special Topics",
+        "coursenum": "3001",
+        "internal_id": 25,
+        "department": "COMP_SCI",
+        "hrs": "0.0 and LEC 0.0",
+        "type": "LAB",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "name": "Seminar",
+        "coursenum": "3010",
+        "internal_id": 26,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Discussion of current topics."
+    },
+    {
+        "name": "Software Engineering I",
+        "coursenum": "3100",
+        "internal_id": 27,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Development of methodologies useful in the software engineering classical life cycle. This includes: requirements, design, implementation, and testing phases. These methodologies are reinforced through utilization of a CASE tool and a group project. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2500 and at least Junior standing."
+    },
+    {
+        "name": "Introduction To Numerical Methods",
+        "coursenum": "3200",
+        "internal_id": 28,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Finite difference interpolation, numerical differentiation and integration, linear systems of equations, solution of nonlinear equations, numerical solution of ordinary differential equations, computational techniques and the programming of a large number of problems on digital computers. Prerequisites: Program competency and a &quot;C&quot; or better grade in either Math 1215 or Math 1221."
+    },
+    {
+        "name": "Programming Languages And Translators",
+        "coursenum": "3500",
+        "internal_id": 29,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Covers basic design of programming languages, compilers and interpreters. The concepts of syntax, variables, expressions, types, scope, functions, procedures, statements, I/O, exception handling and concurrency are introduced. The manner in which various programming languages handle these concepts is discussed. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2200."
+    },
+    {
+        "name": "Introduction to Computer Security",
+        "coursenum": "3600",
+        "internal_id": 30,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course encompasses threats and vulnerabilities, trust and security policies, and enforcement. Specific topics include access control, risk management, systems and applications life cycle, physical security, key management, transmission security, and cryptography. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2500."
+    },
+    {
+        "name": "Digital Forensics",
+        "coursenum": "3601",
+        "internal_id": 31,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Planning/managing incidents and response related to digital forensics; identifying, collecting, and preserving digital evidence; live/dead approaches covering systems as a whole emphasizing file system forensics; analysis and interpretation of artifacts culminating in a final project consisting of a collection, analysis, and report; legal and ethical issues. Prerequisites: A &quot;C&quot; or better grade in both COMP SCI 3600 and COMP SCI 3800."
+    },
+    {
+        "name": "Computer Networks",
+        "coursenum": "3610",
+        "internal_id": 32,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course covers general principles of computer networking, focusing primarily on internet protocols. It covers the TCP/IP stack, with the application layer first, moving down through link and physical layers. Topics include network virtualization, security, wireless, and mobile networks, with extensive live protocol analysis. Coursework is project based. Prerequisites: A grade of &quot;C&quot; or better in Comp Sci 3800."
+    },
+    {
+        "name": "Introduction to Operating Systems",
+        "coursenum": "3800",
+        "internal_id": 33,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course teaches the concepts, structure, and mechanisms of Operating Systems. Topics include process management, concurrency, synchronization, deadlock, multithreading, memory management, scheduling, and internetworking. Special emphasis is given to Unix and its modern-day derivatives. Prerequisites: A grade of &quot;C&quot; or better in both Comp Sci 1575 and Comp Eng 2210."
+    },
+    {
+        "name": "Computer Organization",
+        "coursenum": "3803",
+        "internal_id": 34,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A detailed study of computer organization concepts and the components of a computer system including control unit, microprogrammming, pipelining, memory hierarchy, cache design, virtual memory, I/O devices, and a brief introduction to parallel processors. Prerequisites: A &quot;C&quot; or better in both Comp Eng 2210 and Comp Sci 1510."
+    },
+    {
+        "name": "Special Problems",
+        "coursenum": "4000",
+        "internal_id": 35,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "name": "Special Topics",
+        "coursenum": "4001",
+        "internal_id": 36,
+        "department": "COMP_SCI",
+        "hrs": "0.0 and LEC 0.0",
+        "type": "LAB",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "name": "Seminar",
+        "coursenum": "4010",
+        "internal_id": 37,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Discussion of current topics. Prerequisite: Senior standing."
+    },
+    {
+        "name": "Software Engineering Capstone I",
+        "coursenum": "4090",
+        "internal_id": 38,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This is the first course in the Software Engineering Capstone sequence covering the Software Life Cycle. Students will learn about software engineering, and work in teams to spec, design, prototype, implement, test, document, deploy, and maintain a software system. This course is programming intensive, writing emphasized and addresses ethical considerations. Prerequisites: A grade of &quot;C&quot; or better in all of Comp Sci 2300, Comp Sci 2500, Comp Sci 3610, and in one of Philos 3225, Philos 3235, Philos 4340, or Philos 4368."
+    },
+    {
+        "name": "Software Engineering Capstone II",
+        "coursenum": "4091",
+        "internal_id": 39,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This is the second course in the Software Engineering Capstone sequence covering the Software Life Cycle. Students will learn about software engineering, and work in teams to spec, design, prototype, implement, test, document, deploy and maintain a software system. This course is programming intensive, writing emphasized and addresses ethical considerations. Prerequisites: A grade of &quot;C&quot; or better in both Comp Sci 4090 and Comp Sci 4610."
+    },
+    {
+        "name": "Software Systems Development I",
+        "coursenum": "4096",
+        "internal_id": 40,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Class members will work in small teams to develop a complete software system beginning with end-user interviews and concluding with end-user training. Prerequisites: 100 credit hours completed and a grade of &quot;C&quot; or better in both Comp Sci 3100 and one of Phil 3225, Phil 3235, Phil 4340, or Phil 4368."
+    },
+    {
+        "name": "Software Systems Development II",
+        "coursenum": "4097",
+        "internal_id": 41,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course is an optional continuation of Comp Sci 397. Those interested in project management should take this course since participants become officers or group leaders in the class &quot;corporation.&quot; This course is especially important for those going straight into industry upon graduation. Students with coop experience may find this course redundant. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 4096."
+    },
+    {
+        "name": "Undergraduate Research",
+        "coursenum": "4099",
+        "internal_id": 42,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Designed for the undergraduate student who wishes to engage in research. Does not lead to the preparation of a thesis. Not more than six (6) credit hours allowed for graduation credit. Subject and credit to be arranged with the faculty supervisor."
+    },
+    {
+        "name": "Multimedia Systems",
+        "coursenum": "4489",
+        "internal_id": 43,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course introduces the concepts and components of Multimedia information systems. Topics include: Introduction to Multimedia Data, Multimedia Date Compression, Techniques and Standards, Indexing and Retrieval, Data Storage Organization, Communication and Synchronization, Applications-Media-OnDemand Systems, Video Conferencing, Digital Libraries. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 1510."
+    },
+    {
+        "name": "Computer Network Concepts And Technology",
+        "coursenum": "4601",
+        "internal_id": 44,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course will introduce computer network concepts and will survey the current and evolving technology for the construction, operation, and management of those networks. Both hardware and software issues will be addressed with a focus on local area networks. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 3800."
+    },
+    {
+        "name": "Intellectual Property For Computer Scientists",
+        "coursenum": "4700",
+        "internal_id": 45,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A presentation of the relationship between the law of intellectual property and computer science. Topics include the application of copyright principles to computer programs, protection of computer programs through patents and trade secret law, and the effect of various agreements which are frequently encountered by the computer scientist. Prerequisite: Senior or graduate standing."
+    },
+    {
+        "name": "Special Problems",
+        "coursenum": "5000",
+        "internal_id": 46,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "name": "Special Topics",
+        "coursenum": "5001",
+        "internal_id": 47,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "LEC",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "name": "Oral Examination",
+        "coursenum": "5040",
+        "internal_id": 48,
+        "department": "COMP_SCI",
+        "hrs": "0.0",
+        "type": "IND",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "name": "Research",
+        "coursenum": "5099",
+        "internal_id": 49,
+        "department": "COMP_SCI",
+        "hrs": "0.0-16",
+        "type": "IND",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "name": "Agile Software Development",
+        "coursenum": "5100",
+        "internal_id": 50,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Understand principles of agile software development and contrast them with prescriptive processes. Specifically: Eliciting, organizing, and prioritizing requirements; Design processes; Understand how a particular process promotes quality; Estimate costs and measure project progress and productivity. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 3100."
+    },
+    {
+        "name": "Software Testing And Quality Assurance",
+        "coursenum": "5101",
+        "internal_id": 51,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "It covers unit testing, subsystem testing, system testing, object-oriented testing, testing specification, test case management, software quality factors and criteria, software quality requirement analysis and specification, software process improvement, and software total quality management. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2500."
+    },
+    {
+        "name": "Object-Oriented Analysis And Design",
+        "coursenum": "5102",
+        "internal_id": 52,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course will explore principles, mechanisms, and methodologies in object-oriented analysis and design. An object-oriented programming language will be used as the vehicle for the exploration. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2500."
+    },
+    {
+        "name": "Analysis Of Algorithms",
+        "coursenum": "5200",
+        "internal_id": 53,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "The purpose of this course is to teach the techniques needed to analyze algorithms. The focus of the presentation is on the practical application of these techniques to such as sorting, backtracking, and graph algorithms. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2500."
+    },
+    {
+        "name": "Object-Oriented Numerical Modeling I",
+        "coursenum": "5201",
+        "internal_id": 54,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A study of object-oriented modeling of the scientific domain. Techniques and methodologies will be developed enabling the student to build a class library of reusable software appropriate for scientific application. Applications will be drawn from mechanics, finance, and engineering. Prerequisites: A grade of &quot;C&quot; or better in both Comp Sci 3200 and Comp Sci 1575; a grade of &quot;C&quot; or better in one of Math 3108, 3103, 3329."
+    },
+    {
+        "name": "Object-Oriented Numerical Modeling II",
+        "coursenum": "5202",
+        "internal_id": 55,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A continued study of object-oriented modeling of the scientific domain. Advanced applications include models posed as balance laws, integral equations, and stochastic simulations. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5201."
+    },
+    {
+        "name": "Mathematical Logic I",
+        "coursenum": "5203",
+        "internal_id": 56,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A mathematical introduction to logic with some applications. Functional and relational languages, satisfaction, soundness and completeness theorems, compactness theorems. Examples from Mathematics, Philosophy, Computer Science, and/or Computer Engineering. Prerequisite: Philos 3254 or Math 5105 or Comp Sci 2500 or Comp Eng 2210.  (Co-listed with Math 5154, Philos 4354 and Comp Eng 5803.)."
+    },
+    {
+        "name": "Regression Analysis",
+        "coursenum": "5204",
+        "internal_id": 57,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Simple linear regression, multiple regression, regression diagnostics, multicollinearity, measures of influence and leverage, model selection techniques, polynomial models, regression with autocorrelated errors, introduction to non-linear regression. Prerequisites: Math 2222 and one of Stat 3111, 3113, 3115, 3117, or 5643. (Co-listed with Stat 5346)."
+    },
+    {
+        "name": "Real-Time Systems",
+        "coursenum": "5205",
+        "internal_id": 58,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Introduction to real-time (R-T) systems and R-T kernels, also known as R-T operating systems, with an emphasis on scheduling algorithms. The course also includes specification, analysis, design and validation techniques for R-T systems. Course includes a team project to design an appropriate R-T operating system. Prerequisites: COMP ENG 3150 or COMP SCI 3800. Co-listed with Comp Eng 5170."
+    },
+    {
+        "name": "Database Systems",
+        "coursenum": "5300",
+        "internal_id": 59,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course introduces the advanced database concepts of normalization and functional dependencies, transaction models, concurrency and locking, timestamping, serializability, recovery techniques, and query planning and optimization. Students will participate in programming projects. Prerequisite: A &quot;C&quot; or better grade in both Comp Sci 1200 and Comp Sci 2300."
+    },
+    {
+        "name": "Introduction To Artificial Intelligence",
+        "coursenum": "5400",
+        "internal_id": 60,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A modern introduction to AI, covering important topics of current interest such as search algorithms, heuristics, game trees, knowledge representation, reasoning, computational intelligence, and machine learning. Students will implement course concepts covering selected AI topics. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2500."
+    },
+    {
+        "name": "Evolutionary Computing",
+        "coursenum": "5401",
+        "internal_id": 61,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Introduces evolutionary algorithms, a class of stochastic, population-based algorithms inspired by natural evolution theory (e.g., genetic algorithms), capable of solving complex problems for which other techniques fail. Students will implement course concepts, tackling science, engineering and/or business problems. Prerequisite: A &quot;C&quot; or better grade in both Comp Sci 2500 and in a Statistics course."
+    },
+    {
+        "name": "Introduction to Data Mining",
+        "coursenum": "5402",
+        "internal_id": 62,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "The key objectives of this course are two-fold: (1) to teach the fundamental concepts of data mining and (2) to provide extensive hands-on experience in applying the concepts to real-world applications. The core topics to be covered in this course include classification, clustering, association analysis, data preprocessing, and outlier/novelty detection. Prerequisites: A grade of  &quot;C&quot; or better in all of Comp Sci 2300, Comp Sci 2500, and one of Stat 3113, Stat 3115, Stat 3117 or Stat 5643."
+    },
+    {
+        "name": "Introduction to Robotics",
+        "coursenum": "5403",
+        "internal_id": 63,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course provides an introduction to robotics, covering robot hardware, fundamental kinematics, trajectories, differential motion, robotic decision making, and an overview of current topics in robotics. Prerequisite: A grade of &quot;C&quot; or better in both Math 3108 and Comp Sci 1575. (Co-listed with Comp Eng 5880 and Elec Eng 5880)."
+    },
+    {
+        "name": "Introduction to Computer Vision",
+        "coursenum": "5404",
+        "internal_id": 64,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course introduces foundational theories and analysis methods in computer vision. Topics will include camera model and geometry, description of visual features, shape analysis, stereo reconstruction, motion and video processing, and visual object recognition. Prerequisite: A &quot;C&quot; or better grade in both Math 3108 and Comp Sci 2500."
+    },
+    {
+        "name": "Java Gui &amp; Visualization",
+        "coursenum": "5405",
+        "internal_id": 65,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Fundamentals of Java Swing Foundation Classes, Java System Language Specifics, Graphical User Interfaces, Images, Audio, Animation, Networking, and Threading. Visualization of Algorithms. GUI Elements include Event Driven Programming, Interaction with Mouse and KeyBoard, Window Managers, Frames, Panels, Dialog Boxes, Borders. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2500 or equivalent."
+    },
+    {
+        "name": "Interactive Computer Graphics",
+        "coursenum": "5406",
+        "internal_id": 66,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Applications and functional capabilities of current computer graphics systems. Interactive graphics programming including windowing, clipping, segmentation, mathematical modeling, two and three dimensional transformations, data structures, perspective views, antialiasing and software design. Prerequisite: A &quot;C&quot; or better grade in both Comp Sci 3200 and Comp Sci 2500."
+    },
+    {
+        "name": "The Structure of a Compiler",
+        "coursenum": "5500",
+        "internal_id": 67,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Review of Backus normal form language descriptors and basic parsing concepts. Polish and matrix notation as intermediate forms, and target code representation. Introduction to the basic building blocks of a compiler: syntax scanning, expression translation, symbol table manipulation, code generation, local optimization, and storage allocation. Prerequisite: A &quot;C&quot; or better grade in both Comp Sci 3500 and Comp Sci 2500."
+    },
+    {
+        "name": "Computer Networks",
+        "coursenum": "5600",
+        "internal_id": 68,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course focuses on the Internet and the general principles of computer networking. It covers the TCP/IP model from the application layer to the link layer in a top-down approach. It also exposes students to multimedia networking, network security, wireless and mobile networks. It is a networking class targeted for entry-level graduate students. This course has additional requirements beyond CS4600 on network performance modeling and analysis, development and implementation of complex communication protocols. Credit will not be given if previously have taken CS4600 or CpE 4410/5410. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 3800."
+    },
+    {
+        "name": "Security Operations &amp; Program Management",
+        "coursenum": "5601",
+        "internal_id": 69,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "An overview of information security operations, access control, risk management, systems and application life cycle management, physical security, business continuity planning, telecommunications security, disaster recovery, software piracy, investigations, ethics and more. There will be extensive reporting, planning and policy writing. Prerequisite: A &quot;C&quot; or better grade in all of: operating systems, computer networking, and a writing emphasized course."
+    },
+    {
+        "name": "Introduction to Cryptography",
+        "coursenum": "5602",
+        "internal_id": 70,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Introduces fundamentals of modern cryptography. Topics include basic number theory, public &amp; private key encryption schemes, cryptographic hash functions, message authentication codes, elliptic curve cryptography, Diffie-Hellman key agreements, digital signatures, PUFs, quantum cryptography, and generation of prime numbers and pseudo-random sequences. Prerequisites: A grade of &quot;C&quot; or better in COMP SCI 5200 or a grade of &quot;B&quot; or better in COMP SCI 2500."
+    },
+    {
+        "name": "Bioinformatics",
+        "coursenum": "5700",
+        "internal_id": 71,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "The course will familiarize students with the application of computational methods to biology, as viewed from both perspectives. It will introduce problems in molecular, structural, morphological, and biodiversity informatics, and will discuss principles, algorithms, and software to address them. Prerequisites: A grade of &quot;C&quot; or better in both one of Bio Sci 1113 or Bio Sci 1213 and one of Comp Sci 1570 and Comp Sci 1580 or Comp Sci 1971 and Comp Sci 1981. (Co-listed with Bio Sci 5323)."
+    },
+    {
+        "name": "Distributed Computing",
+        "coursenum": "5800",
+        "internal_id": 72,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This is an introduction to the fundamentals of distributed computing. Topics include a review of communication between distributed processes, causality, distributed state maintenance, failure detection, reconfiguration and recovery, distributed mutual exclusion, clock synchronization, and leader election. Students will implement select course concepts. Prerequisites: A grade of &quot;C&quot; or better in both Comp Sci 3800 and Comp Sci 2500."
+    },
+    {
+        "name": "The Structure Of Operating Systems",
+        "coursenum": "5801",
+        "internal_id": 73,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "The hardware and software requirements for operating systems for uniprogramming, multiprogramming, multiprocessing, time sharing, real time and virtual systems. The concepts of supervisors, interrupt handlers, input/output control systems, and memory mapping are discussed in detail. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 3800."
+    },
+    {
+        "name": "Introduction to Parallel Programming and Algorithms",
+        "coursenum": "5802",
+        "internal_id": 74,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Parallel and pipelined algorithms, architectures, network topologies, message passing, process scheduling and synchronization. Parallel programming on clusters. Cost, speedup and efficiency analysis. Prerequisite: A &quot;C&quot; or better grade in both Comp Sci 3800 and Comp Sci 2500."
+    },
+    {
+        "name": "Introduction to High Performance Computer Architecture",
+        "coursenum": "5803",
+        "internal_id": 75,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Overviews high performance architecture of computing systems and covers various architectural/hardware and software/algorithmic means that enhance performance. Uniprocessor and concurrent systems are investigated. Various computational models are studied and linked to commercial systems. Prerequisite: A &quot;C&quot; or better grade in both Comp Eng 3150 and Comp Sci 2500."
+    },
+    {
+        "name": "Special Problems",
+        "coursenum": "6000",
+        "internal_id": 76,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "IND",
+        "description": "Problems or readings on specific subjects or projects in the department. Consent of instructor required."
+    },
+    {
+        "name": "Special Topics",
+        "coursenum": "6001",
+        "internal_id": 77,
+        "department": "COMP_SCI",
+        "hrs": "0.0-6.0",
+        "type": "LEC",
+        "description": "This course is designed to give the department an opportunity to test a new course. Variable title."
+    },
+    {
+        "name": "Seminar",
+        "coursenum": "6010",
+        "internal_id": 78,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "RSD",
+        "description": "Discussion of current topics."
+    },
+    {
+        "name": "Oral Examination",
+        "coursenum": "6040",
+        "internal_id": 79,
+        "department": "COMP_SCI",
+        "hrs": "0.0",
+        "type": "IND",
+        "description": "After completion of all other program requirements, oral examinations for on-campus M.S./Ph.D. students may be processed during intersession. Off-campus M.S. students must be enrolled in oral examination and must have paid an oral examination fee at the time of the defense/comprehensive examination (oral/ written). All other students must enroll for credit commensurate with uses made of facilities and/or faculties. In no case shall this be for less than three (3) semester hours for resident students."
+    },
+    {
+        "name": "Continuous Registration",
+        "coursenum": "6050",
+        "internal_id": 80,
+        "department": "COMP_SCI",
+        "hrs": "1.0",
+        "type": "IND",
+        "description": "Doctoral candidates who have completed all requirements for the degree except the dissertation, and are away from the campus must continue to enroll for at least one hour of credit each registration period until the degree is completed. Failure to do so may invalidate the candidacy. Billing will be automatic as will registration upon payment."
+    },
+    {
+        "name": "Research Special Topics",
+        "coursenum": "6099",
+        "internal_id": 81,
+        "department": "COMP_SCI",
+        "hrs": "0.0-16",
+        "type": "IND",
+        "description": "Investigations of an advanced nature leading to the preparation of a thesis or dissertation. Consent of instructor required."
+    },
+    {
+        "name": "Software Engineering II",
+        "coursenum": "6100",
+        "internal_id": 82,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "A quantitative approach to measuring costs/productivity in software projects. The material covered will be software metrics used in the life cycle and the student will present topical material. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 3100."
+    },
+    {
+        "name": "Software Requirements Engineering",
+        "coursenum": "6101",
+        "internal_id": 83,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course will cover advanced methods, processes, and technique for discovering, analyzing, specifying and managing software requirements of a software system from multiple perspectives. It will discuss both functional and non-functional requirements analysis. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 3100."
+    },
+    {
+        "name": "Model Based Systems Engineering",
+        "coursenum": "6102",
+        "internal_id": 84,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Provides the student with understanding of the use of models to represent systems and validate system architectures. The student will gain proficiency in using a systems modeling language and shifting systems engineering from a document centric to a model centric paradigm. Prerequisites: Graduate Standing. (Co-listed with SYS ENG 6542)."
+    },
+    {
+        "name": "Algorithmics II",
+        "coursenum": "6200",
+        "internal_id": 85,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Covers selected classical and recent developments in the design and analysis of algorithms, such as sophisticated data structures, amortized complexity, advanced graph theory, and network flow techniques. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5200."
+    },
+    {
+        "name": "Theory Of Computation",
+        "coursenum": "6201",
+        "internal_id": 86,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Turing machines and other machines. Godel numbering and unsolvability results. Machines with restricted memory access and limited computing time. Recursive functions, computable functionals and the classification of unsolvable problems. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 2200."
+    },
+    {
+        "name": "Markov Decision Processes",
+        "coursenum": "6202",
+        "internal_id": 87,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Introduction to Markov Decision Processes and Dynamic Programming. Application to Inventory Control and other optimization and control topics. Prerequisite: Graduate standing in background of probability or statistics. (Co-listed with Comp Eng 6310, Mech Eng 6447, Aero Eng 6447 and Eng Mgt 6410)."
+    },
+    {
+        "name": "Network Information Analysis",
+        "coursenum": "6203",
+        "internal_id": 88,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Modeling techniques and analytical methods to study the interaction of information and networks focusing on models and properties of network structures, and diffusion of information over networks. Expected outcomes are systematic inference of information encoded in network structures, and effective methods to disseminate or gather information from networks. Prerequisites: A &quot;C&quot; or better grade in Comp Sci 5200."
+    },
+    {
+        "name": "Applied Graph Theory for Computer Science",
+        "coursenum": "6204",
+        "internal_id": 89,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course covers advanced concepts in graph theory and their applications. Graphs offer an excellent modeling and analysis tool for solving a wide variety of real-life problems. Emphasis will be on understanding concepts, theory, and proof techniques, and how to develop &quot;cool&quot; and &quot;elegant&quot; solutions for applications. Students will conduct projects. Prerequisite: A grade of &quot;C&quot; or better in Comp Sci 5200."
+    },
+    {
+        "name": "Object-Oriented Database Systems",
+        "coursenum": "6300",
+        "internal_id": 90,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course will include a study of the origins of object-oriented database manipulation languages, their evolution, currently available systems, application to the management of data, problem solving using the technology, and future directions. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5102."
+    },
+    {
+        "name": "Web Data Management and XML",
+        "coursenum": "6301",
+        "internal_id": 91,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Management of semi-structured data models and XML, query languages such as Xquery, XML indexing, and mapping of XML data to other data models and vice-versa, XML views and schema management, advanced topics include change-detection, web mining and security of XML data. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5300."
+    },
+    {
+        "name": "Heterogeneous and Mobile Databases",
+        "coursenum": "6302",
+        "internal_id": 92,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course extensively discusses multidatabase systems (MDBS) and mobile data access systems (MDAS). Moreover, it will study traditional distributed database issues within the framework of MDBSs and MDASs. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5300."
+    },
+    {
+        "name": "Pervasive Computing",
+        "coursenum": "6303",
+        "internal_id": 93,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Pervasive computing aims to seamlessly integrate computing with our everyday activities, so that people do not need to be aware of computing artifacts. This course will introduce various techniques needed to realize pervasive computing, such as position tracking and ad-hoc networking. Prerequisite: A grade of &quot;C&quot; or better in one of Comp Sci 4600, Comp Sci 5600, or Comp Eng 5410."
+    },
+    {
+        "name": "Cloud Computing and Big Data Management",
+        "coursenum": "6304",
+        "internal_id": 94,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Covers facets of cloud computing and big data management, including the study of the architecture of the cloud computing model with respect to virtualization, multi-tenancy, privacy, security, cloud data management and indexing, scheduling and cost analysis; it also includes programming models such as Hadoop and MapReduce, crowdsourcing, and data provenance. Prerequisites:  A grade of 'C' or better in both COMP SCI 5800 and either COMP SCI 5300 or COMP SCI 5402."
+    },
+    {
+        "name": "Advanced Topics In Artificial Intelligence",
+        "coursenum": "6400",
+        "internal_id": 95,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Advanced topics of current interest in the field of artificial intelligence. This course involves reading seminal and state-of-the-art papers as well as conducting topical research projects including design, implementation, experimentation, analysis, and written and oral reporting components. Prerequisite: A &quot;C&quot; or better grade in one of Comp Sci 5400, Comp Sci 5401 or Comp Eng 5310."
+    },
+    {
+        "name": "Advanced Evolutionary Computing",
+        "coursenum": "6401",
+        "internal_id": 96,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Advanced topics in evolutionary algorithms, a class of stochastic, population-based algorithms inspired by natural evolution theory, capable of solving complex problems for which other techniques fail. Students will conduct challenging research projects involving advanced concept implementation, empirical studies, statistical analysis, and paper writing. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5401."
+    },
+    {
+        "name": "Advanced Topics in Data Mining",
+        "coursenum": "6402",
+        "internal_id": 97,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Advanced topics of current interest in the field of data mining. This course involves reading seminal and state-of-the-art papers as well as conducting topical research projects including design, implementation, experimentation, analysis, and written and oral reporting components. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5001 Introduction to Data Mining. (Co-listed with Comp Eng 6302 and Sys Eng 6216)."
+    },
+    {
+        "name": "Computer Graphics And Realistic Modeling",
+        "coursenum": "6404",
+        "internal_id": 98,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Algorithms, data structures, software design and strategies used to achieve realism in computer graphics of three-dimensional objects. Application of color, shading, texturing, antialiasing, solid modeling, hidden surface removal and image processing techniques. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5406."
+    },
+    {
+        "name": "Clustering Algorithms",
+        "coursenum": "6405",
+        "internal_id": 99,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "An introduction to cluster analysis and clustering algorithms rooted in computational intelligence, computer science and statistics. Clustering in sequential data, massive data and high dimensional data. Students will be evaluated by individual or group research projects and research presentations. Prerequisite: At least one graduate course in statistics, data mining, algorithms, computational intelligence, or neural networks, consistent with student's degree program. (Co-listed with Comp Eng 6330, Elec Eng 6830, Sys Eng 6214 and Stat 6239)."
+    },
+    {
+        "name": "Machine Learning in Computer Vision",
+        "coursenum": "6406",
+        "internal_id": 100,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Introduces machine learning fundamentals in current computer vision research. Topics include modeling complex data densities, regression and classification models, graphical models such as chains, trees, and grids, temporal models such as particle filtering and models for visual recognition such as deep learning. Students will implement select course topics. Prerequisite: A grade of &quot;C&quot; or better in either Comp Sci 5402 or Comp Sci 5404."
+    },
+    {
+        "name": "Theory Of Compiling",
+        "coursenum": "6500",
+        "internal_id": 101,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Properties of formal grammars and languages, language-preserving transformations, syntax-directed parsing, classes of parsing methods and the grammars for which they are suited, control flow analysis, and the theoretical framework of local and global program optimization methods. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5500."
+    },
+    {
+        "name": "Formal Methods in Computer Security",
+        "coursenum": "6600",
+        "internal_id": 102,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "The course presents various vulnerabilities and threats to information in cyberspace and the principles and techniques for preventing and detecting threats, and recovering from attacks. The course deals with various formal models of advanced information flow security. A major project will relate theory to practice. Prerequisites: A grade of &quot;C&quot; or better in both Comp Sci 3600 and Comp Sci 5200."
+    },
+    {
+        "name": "Privacy Preserving Data Integration and Analysis",
+        "coursenum": "6601",
+        "internal_id": 103,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "This course covers basic tools, in statistics and cryptography, commonly used to design privacy-preserving and secure protocols in a distributed environment as well as recent advances in the field of privacy-preserving data analysis, data sanitization and information retrieval. Prerequisite: A &quot;C&quot; or better grade in both Comp Sci 5300 and Comp Sci 3600."
+    },
+    {
+        "name": "Network Performance Analysis",
+        "coursenum": "6602",
+        "internal_id": 104,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Provides an introduction to performance modeling and analysis of computer networks. Topics include stochastic processes; performance measurement and monitoring; quantitative models for network performance, e.g., Markovian models for queues; simulation; and statistical analysis of experiments. Prerequisites: Comp Eng 5410 or Comp Sci 4600; Stat 3117 or 5643. (Co-listed with Comp Eng 6440)."
+    },
+    {
+        "name": "Advanced Topics in Wireless Networks",
+        "coursenum": "6603",
+        "internal_id": 105,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Introduces the fundamentals and recent advances in wireless networking. Coverage includes cellular networks, wireless and mobile ad hoc networks, wireless mesh networks, sensor networks and wireless LANs with a focus on network operation. Special topics selected from the literature on wireless network security will also be addressed. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 4600 or equivalent."
+    },
+    {
+        "name": "Mobile And Sensor Data Management",
+        "coursenum": "6604",
+        "internal_id": 106,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Architectures of mobile computing systems; Mobile-IP support in mobile computing systems; location data management, Broadcasting and indexing, replication control; caching, fault tolerance and reliability of mobile systems; adhoc and sensor routing schemes, key management. Prerequisite: Comp Sci 4601."
+    },
+    {
+        "name": "Advanced Network Security",
+        "coursenum": "6605",
+        "internal_id": 107,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Topics covered include network security issues such as authentication, anonymity, traceback, denial of service, confidentiality, forensics, etc. in wired and wireless networks. Students will have a clear, in-depth understanding of state of the art network security attacks and defenses. Prerequisite: A &quot;C&quot; or better grade in either Comp Eng 5420 or Comp Sci 4600."
+    },
+    {
+        "name": "Distributed Systems Theory And Analysis",
+        "coursenum": "6800",
+        "internal_id": 108,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Analysis of the problems of state maintenance and correctness in concurrent computing systems using formal methods such as Hoare Logic, Temporal Logic, and Symbolic Model Checking. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5800."
+    },
+    {
+        "name": "Topics in Parallel and Distributed Computing",
+        "coursenum": "6801",
+        "internal_id": 109,
+        "department": "COMP_SCI",
+        "hrs": "3.0",
+        "type": "LEC",
+        "description": "Introduction of parallel and distributed computing fundamentals and advanced research topics. Students present research papers selected from the current literature on P&amp;D computing paradigms. A term paper and oral presentation are required. Prerequisite: A &quot;C&quot; or better grade in Comp Sci 5802 or equivalent background."
+    }
+]
