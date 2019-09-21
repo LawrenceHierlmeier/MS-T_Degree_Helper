@@ -26,7 +26,7 @@ list_of_courses = []
 
 for matchNum, match in enumerate(matches, start=1):
     index += 1
-    temp = {"name":match.group(2),"coursenum":match.group(1),"internal_id":index,"department":department,"hrs":match.group(4),"type":match.group(3),"description":match.group(5)}
+    temp = {"name":match.group(2),"coursenum":match.group(1),"internal_id":index,"department":department,"hrs":match.group(4),"type":match.group(3),"description":match.group(5), "prereqs":[],"coreqs":[]}
     list_of_courses.append(temp)
 
 with open("mstdatabase.json", 'w') as file:
