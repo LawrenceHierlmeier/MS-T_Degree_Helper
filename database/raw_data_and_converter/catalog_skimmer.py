@@ -3,8 +3,9 @@ import json
 
 #----------------------#
 #Only Change These Variables:
-filestring = "compscicatalogsource.html"
-department = "COMP_SCI"
+filestring = "ARCHEcatalog.htm"
+department = "ARCH_ENG"
+outfile = "test.json"
 #----------------------#
 
 regex = (
@@ -29,7 +30,7 @@ for matchNum, match in enumerate(matches, start=1):
     temp = {"name":match.group(2),"coursenum":match.group(1),"internal_id":index,"department":department,"hrs":match.group(4),"type":match.group(3),"description":match.group(5), "prereqs":[],"coreqs":[]}
     list_of_courses.append(temp)
 
-with open("mstdatabase.json", 'w') as file:
+with open(outfile, 'w') as file:
     json.dump(list_of_courses,file, indent=4)
 
 with open("idkeeper", 'w') as file:
